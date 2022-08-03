@@ -2,7 +2,7 @@
 using HarmonyLib;
 using NeosModLoader;
 
-namespace ShutTheFuckUp {
+namespace DiscordVR {
     public class DiscordVR : NeosMod {
         public override string Name => "DiscordVR";
         public override string Author => "Psychpsyo";
