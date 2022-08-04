@@ -22,6 +22,7 @@ namespace DiscordVR {
             static void Postfix(UserspaceScreensManager __instance) {
                 Slot discordScreenSlot = (Slot)typeof(UserspaceScreensManager).GetMethod("DiscordJoke", AccessTools.all).Invoke(__instance, new object[] { });
                 discordScreenSlot.OrderOffset = 11;
+                discordScreenSlot.PersistentSelf = false;
             }
         }
     }
